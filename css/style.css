@@ -1,0 +1,50 @@
+/* Core page setup */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #131313;
+
+}
+
+/* Header container */
+.site-header {
+    background-color: #1a1a1a; /* Dark sleek header */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Flexbox layout on the unordered list inside the nav tag */
+.main-navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Makes the list items line up horizontally */
+}
+
+/* Styling the semantic anchor elements */
+.main-navigation a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px 24px;
+    font-weight: 500;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Hover interactivity */
+.main-navigation a:hover {
+    background-color: #333333;
+    color: #00bcd4; /* Accent color on hover */
+}
+
+/* Active page styling */
+.main-navigation a.active {
+    background-color: #00bcd4;
+    color: #1a1a1a;
+}
+
+/* Content spacing */
+main {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
